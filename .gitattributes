@@ -1,0 +1,12 @@
+# Autodetect text files
+* text=auto
+autocrlf=false
+
+# Force lf for all the files
+*.* text eol=lf
+mvnw text eol=lf
+
+# windows file need crlf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
